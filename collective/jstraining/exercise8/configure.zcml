@@ -7,9 +7,9 @@
 
    <genericsetup:registerProfile
      name="default"
-     title="Exercise 8"
+     title="Exercise 10"
      directory="profiles/default"
-     description="Install Exercise 8 training package"
+     description="Install Exercise 10 training package"
      provides="Products.GenericSetup.interfaces.EXTENSION"
      />
 

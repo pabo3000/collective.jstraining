@@ -13,4 +13,6 @@
      provides="Products.GenericSetup.interfaces.EXTENSION"
      />
 
+  <plone:static directory="theme" name="exercise3" type="theme" />
+
 </configure>
