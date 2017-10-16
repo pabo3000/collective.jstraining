@@ -6,5 +6,5 @@ class IMinSizeImageWidget(INamedImageWidget):
     pass
 
 
-class IExercise7Layer(Interface):
+class IExercise6Layer(Interface):
     pass

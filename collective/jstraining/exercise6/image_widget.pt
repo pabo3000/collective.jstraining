@@ -29,10 +29,9 @@
                 doc_type view/file_content_type;
                 icon view/file_icon;">
     <span tal:condition="python:exists and download_url and action=='nochange'">
-        <img
-            tal:attributes="src download_url;
-                            width view/thumb_width"
-            /><br />
+      <a tal:attributes="href download_url">
+          <img tal:replace="structure view/thumb_tag"/>
+      </a><br />
         <img tal:condition="icon" src="" alt=""
              tal:attributes="src icon;
                              alt doc_type;
@@ -97,8 +96,8 @@
 
                             dummy string:XXX This is the custom part;
 
-                            class string:${view/klass} pat-exercise7;
-                            data-pat-exercise7 view/pattern_options"
+                            class string:${view/klass} pat-exercise6;
+                            data-pat-exercise6 view/pattern_options"
             />
         <script tal:condition="python:allow_nochange and action != 'replace'" type="text/javascript"
             tal:content="string:document.getElementById('${view/id}-input').disabled=true;">
