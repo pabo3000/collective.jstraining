@@ -7,7 +7,7 @@ module.exports = {
     app: './main.js'
   },
   output: {
-    filename: 'dist.js'
+    filename: 'exercise3-compiled.min.js'
   },
   resolve: {
     root: [ path.join(__dirname, 'app') ],

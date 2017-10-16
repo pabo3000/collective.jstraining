@@ -5,12 +5,11 @@
    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
    i18n_domain="collective.jstraining">
 
-
    <genericsetup:registerProfile
      name="default"
-     title="Exercise 9"
+     title="Exercise 2"
      directory="profiles/default"
-     description="Install Exercise 9 training package"
+     description="Install Exercise 2 training package"
      provides="Products.GenericSetup.interfaces.EXTENSION"
      />
 
